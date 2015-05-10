@@ -1,0 +1,97 @@
+body{
+	background-color: #663300;
+}
+
+/*--------- Logo -----------*/
+.my-logo img{
+	width: 100px;
+	position: absolute;
+	left: 45%;
+	margin-top: 20px;
+}
+
+/*--------- Redes Sociais -----------*/
+.my-redes-sociais{
+	float: right;
+}
+
+.my-redes-sociais img{
+	width: 35px;
+	border-radius: 100px;
+	margin-top: 50px;
+	margin-right: 5px;
+	margin-bottom: -50px;
+}
+
+/*--------- Slide - Carousel -----------*/
+.my-slide{
+	width: 100%;
+	height: 380px;
+	z-index: -1;
+	margin-top: 180px;
+}
+
+/*--------- Menu -----------*/
+.my-menu{
+	position: absolute;
+	z-index: 2;
+	margin: -400px;
+	left: 52%;
+}
+
+.my-menu ul li{
+	background-color: #ddd;
+	padding: 10px 20px;
+	float: left;
+	font-size: 25px;
+	color: #fff;
+	margin-left: 2px;
+}
+
+.my-menu ul li a{
+	color: red;
+}
+
+/* -----*********----- AJEITAR ISSO AQUI !!! -----*********----- */
+/* -----*********----- AJEITAR ISSO AQUI !!! -----*********----- */
+.my-menu ul li:hover{
+	background-color: red;
+	color: #fff;
+	border-radius: 0px;
+}
+
+.my-menu ul li a:hover{
+	background-color: red;
+	color: #fff;
+}
+/* -----*********----- AJEITAR ISSO AQUI !!! -----*********----- */
+/* -----*********----- AJEITAR ISSO AQUI !!! -----*********----- */
+
+/*--------- Corpo - Section -----------*/
+.my-novidades {
+	position: relative;
+	left: 5%;
+	margin-top: 40px;
+	margin-bottom: 100px;
+}
+
+.my-novidades img {
+	width: 155px;
+	height: 155px;
+	border-radius: 100px;
+}
+
+.my-novidades a {
+	color: red;
+	text-decoration: underline;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.my-novidades span {
+	color: red;	
+}
+
+.my-novidades p {
+	color: #fff;
+}

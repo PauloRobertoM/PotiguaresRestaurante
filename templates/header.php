@@ -41,7 +41,7 @@
 			</div>
 			<div class="container">
 				<nav class="my-menu">
-					<ul class="nav nav-pills">
+					<ul class="nav">
 						<li><a href="index.php">Home</a></li>
 						<li><a href="sobre.php">Sobre</a></li>
 						<li><a href="cardapio.php">Cardapio</a></li>

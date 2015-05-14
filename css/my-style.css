@@ -1,5 +1,5 @@
 body{
-	background-color: #663300;
+	background-color: #d59a40;
 }
 
 /*--------- Logo -----------*/
@@ -36,12 +36,11 @@ body{
 	position: absolute;
 	z-index: 2;
 	margin: -400px;
-	left: 52%;
+	left: 48%;
 }
 
 .my-menu ul li{
 	background-color: #ddd;
-	padding: 10px 20px;
 	float: left;
 	font-size: 25px;
 	color: #fff;
@@ -50,31 +49,18 @@ body{
 
 .my-menu ul li a{
 	color: red;
-}
-
-/* -----*********----- AJEITAR ISSO AQUI !!! -----*********----- */
-/* -----*********----- AJEITAR ISSO AQUI !!! -----*********----- */
-.my-menu ul li:hover{
-	background-color: red;
-	color: #fff;
-	border-radius: 0px;
+	padding: 20px 40px;
 }
 
 .my-menu ul li a:hover{
 	background-color: red;
 	color: #fff;
 }
-/* -----*********----- AJEITAR ISSO AQUI !!! -----*********----- */
-/* -----*********----- AJEITAR ISSO AQUI !!! -----*********----- */
 
 /*--------- Corpo - Section -----------*/
-/* -----*********----- AJEITAR ISSO AQUI !!! -----*********----- */
-/* -----*********----- AJEITAR ISSO AQUI !!! -----*********----- */
 .my-novidades {
-	position: relative;
-	left: 5%;
-	margin-top: 40px;
-	margin-bottom: 100px;
+	margin-top: 25px;
+	margin-bottom: 20px;
 }
 
 .my-novidades img {
@@ -87,15 +73,117 @@ body{
 	color: red;
 	text-decoration: underline;
 	font-size: 20px;
-	margin-bottom: 10px;
 }
 
 .my-novidades span {
-	color: red;	
+	color: red;
 }
 
 .my-novidades p {
 	color: #fff;
+	text-align: justify;
 }
-/* -----*********----- AJEITAR ISSO AQUI !!! -----*********----- */
-/* -----*********----- AJEITAR ISSO AQUI !!! -----*********----- */
+
+.my-novidades-corpo {
+	margin-top: 20px;
+}
+
+.my-pratos-principais {
+	background-color: #ddd;
+	width: 100%;
+	height: 480px;
+	margin: 0;
+}
+
+.my-pratos-principais a {
+	color: red;
+	text-decoration: underline;
+	font-size: 20px;
+}
+
+.my-link {
+	margin-top: 30px;
+}
+
+.my-pratos-blocos {
+	margin: auto;
+	margin-top: 30px;
+}
+
+.my-bloco {
+	background-color: #daaa56;
+	width: 205px;
+	text-align: center;
+}
+
+.my-bloco img {
+	width: 205px;
+}
+
+.my-bloco span {
+	color: brown;
+}
+
+.my-bloco p {
+	margin-top: 15px;
+	margin-bottom: 60px;
+}
+
+.my-mais{
+	width: 60px;
+	height: 60px;
+	background-color: red;
+	border-radius: 100px;
+	position: absolute;
+}
+
+.my-pratos-blocos .my-mais {
+	margin-top: -29px;
+	margin-left: 70px;
+}
+
+.my-mais span{
+	color: #fff;
+	font-size: 14px;
+	position: relative;
+	top: 30%;
+}
+
+/* --------- FOOTER ---------- */
+.my-comentarios {
+	margin-top: 25px;
+}
+
+.my-comentarios a {
+	color: red;
+	text-decoration: underline;
+	font-size: 20px;
+}
+
+.my-comentarios img {
+	width: 80px;
+	height: 80px;
+	border-radius: 100px;
+	margin-top: 30px;
+}
+
+.my-comentarios p {
+	text-align: justify;
+	margin-top: 50px;
+}
+
+.my-coment {
+	margin-left: 60px;
+	margin-bottom: 50px;
+}
+
+.footer {
+	background-color: #363636;
+	width: 100%;
+	height: 200px;
+}
+
+.footer address {
+	color: #fff;
+	text-align: center;
+}

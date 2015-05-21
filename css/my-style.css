@@ -88,10 +88,16 @@ body{
 	margin-top: 20px;
 }
 
-.my-pratos-principais {
+.my-pratos-principais-index {
 	background-color: #ddd;
 	width: 100%;
 	height: 480px;
+	margin: 0;
+}
+
+.my-pratos-principais {
+	background-color: #ddd;
+	width: 100%;
 	margin: 0;
 }
 
@@ -177,10 +183,10 @@ body{
 	margin-bottom: 50px;
 }
 
-.footer {
+.address {
 	background-color: #363636;
 	width: 100%;
-	height: 170px;
+	height: 130px;
 }
 
 .footer address {
@@ -201,4 +207,97 @@ body{
 	border-radius: 100px;
 	margin-top: -130px;
 	margin-left: 5px;
+}
+
+/* ************** PAGINA SOBRE ************** */
+/* ************** PAGINA SOBRE ************** */
+
+.my-section-sobre h3 {
+	color: red;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.my-section-sobre p {
+	text-align: justify;
+	margin-bottom: 20px;
+}
+
+.my-section-sobre img {
+	width: 100%;
+	height: 380px;
+	margin-top: 20px;
+}
+
+/* ************** PAGINA CARDAPIO ************** */
+/* ************** PAGINA CARDAPIO ************** */
+
+.article-cardapio{
+	margin-bottom: 50px;
+	margin-left: 40px;
+}
+
+.article-cardapio-fim{
+	margin-bottom: 20px;
+	margin-left: 40px;
+}
+
+.my-cardapio-titulo{
+	font-size: 28px;
+	margin-top: -30px;
+	margin-bottom: 30px;
+}
+
+.my-cardapio{
+	float: left;
+    width: 205px;
+}
+
+.my-cardapio h2{
+	color: #000;
+	text-align: center;
+	font-size: 20px;
+}
+
+.my-cardapio img{
+    height: 150px;
+}
+
+.my-cardapio p{
+    margin-top: 10px;
+    color: #000;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* ************** PAGINA CONTATO ************** */
+/* ************** PAGINA CONTATO ************** */
+.my-contato-form form{
+	width: 480px;
+	margin: 5px auto;
+	padding: 10px;
+	border-radius: 3px;
+}
+
+.my-contato-form form label{
+	font-size: 24px;
+	display: block;
+	padding: 5px 0 2px 0;
+}
+
+.my-contato-form form textarea{
+	width: 470px;
+	border-radius: 6px;
+}
+
+.my-contato-form form input{
+	width: 460px; 
+	padding: 5px;
+	border-radius: 6px;
+}
+
+.my-contato-form form input.botao{
+	width:235px;
+	background-color: #d59a40;
+	color: #fff;
 }

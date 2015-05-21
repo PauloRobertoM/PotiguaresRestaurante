@@ -9,7 +9,7 @@
 		<meta name="reply-to" content="contato@agenciadosmares.com.br" />
 
 		<link rel="stylesheet" href="css/bootstrap.min.css" />
-		<link rel="stylesheet" href="css/my-style.css" />	    
+		<link rel="stylesheet" href="css/my-style.css" />
 	</head>
 	<body>
 		<header>
@@ -22,7 +22,7 @@
 					<a href="#"><img src="img/twiter.png" alt="Twiter" /></a>
 				</div>
 			</div>
-			
+
 			<div class="row">
 				<div id="my-carousel" class="carousel slide">
 					<!-- Wrapper for slides -->
@@ -49,6 +49,20 @@
 						<li><a href="contato.php">Contato</a></li>
 					</ul>
 				</div> <!-- Close DIV MENU -->
+			</div>
+
+			<div class="container">
+				<div class="row my-novidades">
+					<div class="span3">
+						<img src="img/Prato1.png" alt="" />
+					</div>
+					<div class="span9 my-novidades-corpo">
+						<a href="novidades.php">Novidades</a><br />
+						<span>Lorem ipsum dolor sit amet</span>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa. 
+						Sed eleifend nonummy diam. Praesent mauris ante, elementum et, bibendum at, posuere sit amet, nibh. Duis tincidunt lectus quis dui viverra vestibulum.</p>
+					</div>
+				</div>
 			</div>
 		</header> <!-- Close header -->
 
